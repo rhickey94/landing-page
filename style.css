@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 150px;
+}
+
+#header {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+menu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-one {
+  background-color: #1f2937;
+  display: flex;
+  padding: 100px 150px;
+}
+
+#section-one div {
+  font-size: 18px;
+  color: #e5e7eb;
+  width: 50%;
+  height: 250px;
+}
+
+#section-one h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin: 0;
+  width: 80%;
+}
+
+#section-one p {
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+#section-one img {
+  width: 100%;
+  background-color: #e5e7eb;
+  height: 100%;
+}
+
+#section-two div {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding-bottom: 60px;
+}
+
+#section-two h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin: 0;
+  text-align: center;
+  padding: 40px;
+}
+
+#section-two figure {
+  margin: 0;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+#section-two img {
+  border: 3px #3882f6 solid;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+#section-three {
+  background-color: #e5e7eb;
+}
+
+#section-three figure {
+  padding: 100px 400px;
+  text-align: justify left;
+}
+
+#section-three blockquote {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+#section-three figcaption {
+  color: #1f2937;
+  font-weight: bolder;
+  text-align: right;
+  padding: 20px;
+  font-size: large;
+}
+
+#section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-four h3 {
+  color: #f9faf8;
+}
+
+#section-four p {
+  color: #e5e7eb;
+}
+
+#section-four button {
+  border: 3px solid #f9faf8;
+}
+
+.cta {
+   background-color: #3882f6;
+   border-radius: 10px;
+   margin: 100px;
+   padding: 50px;
+   color: #f9faf8;
+   width: 75%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px;
+}
